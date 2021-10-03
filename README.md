@@ -51,4 +51,4 @@ const countStore = createStore(countModifier); //redux를 쓰기위해 변수 �
 지정한 변수의 값을 보여주는 함수
 
 **#예시**<br/>
-```console.log(countStore.getState()); //countModifier의 리턴 값을 콘솔로 보여주는 함수
+```console.log(countStore.getState()); //countModifier의 리턴 값을 콘솔로 보여주는 함수```
