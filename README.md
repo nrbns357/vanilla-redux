@@ -32,7 +32,7 @@ const onchange = () => {
       number.innerText = countStore.getState();
 }
 
-countStore.subscribe(onchange); //countStore의 값이 바뀔때 마다 onChange함수를 실행한다.
+countStore.subscribe(onchange); //state의 값이 바뀔 때 마다 onChange함수를 실행한다.
 ```
 
 
