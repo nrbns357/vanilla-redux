@@ -23,7 +23,7 @@ countStore.dispatch({ type : "add"}); //countModifier 함수에 인자중 action
 ```
 
 
-**#subscribe() 함수**
+**#subscribe() 함수**  
 무엇이든 변화할때 실행되는 함수<br/><br/>
 
 **#예시**<br/>
@@ -32,11 +32,11 @@ const onchange = () => {
       number.innerText = countStore.getState();
 }
 
-countStore.subscribe(onchange); //countStore의 값이 바뀔때 마다 onChange함수를 실행한다.
+countStore.subscribe(onchange); //state의 값이 바뀔 때 마다 onChange함수를 실행한다.
 ```
 
 
-**#createStore() 함수**
+**#createStore() 함수**  
 redux를 쓰기위해 쓰는 함수
 
 **#예시**<br/>
@@ -47,7 +47,7 @@ const countStore = createStore(countModifier); //redux를 쓰기위해 변수 �
 ```
 
 
-**#getState() 함수**
+**#getState() 함수**  
 지정한 변수의 값을 보여주는 함수
 
 **#예시**<br/>
